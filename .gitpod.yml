@@ -1,0 +1,9 @@
+image: bitwalker/alpine-elixir-phoenix:1.11.4
+
+tasks:
+  - init: mix setup
+    command: iex --sname tai -S mix
+
+ports:
+  - port: 3000
+    onOpen: open-preview
