@@ -41,7 +41,10 @@ defmodule WorkbenchWeb.Router do
 
     live("/notifications", ListLive, :index,
       as: :notification,
-      layout: {WorkbenchWeb.LayoutView, :root}
+      # layout: {WorkbenchWeb.LayoutView, :root}
+      # root_layout: {WorkbenchWeb.LayoutView, :root}
+      # root_layout: {WorkbenchWeb.LayoutView, "root.html"}
+      # container: {WorkbenchWeb.LayoutView, :root}
     )
   end
 end
