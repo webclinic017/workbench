@@ -36,12 +36,12 @@ defmodule WorkbenchWeb.Router do
     live("/fleets", FleetLive.Index, :index, as: :fleet)
   end
 
-  scope "/", NotifiedPhoenix do
-    pipe_through([:browser])
+  # scope "/", NotifiedPhoenix do
+  #   pipe_through([:browser])
 
-    live("/notifications", ListLive, :index,
-      as: :notification,
-      layout: {WorkbenchWeb.LayoutView, :root}
-    )
-  end
+  #   live("/notifications", ListLive, :index,
+  #     as: :notification,
+  #     layout: {WorkbenchWeb.LayoutView, :root}
+  #   )
+  # end
 end

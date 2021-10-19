@@ -3,6 +3,7 @@
     "outDir": "./dist/",
     "noImplicitAny": true,
     "module": "CommonJS",
+    "moduleResolution": "node12",
     "target": "ES5",
     "lib": [
       "ES2020",

@@ -15,7 +15,7 @@
     <header class="bg-gray-50 py-4 px-4">
       <div class="flex justify-between items-center">
         <%= render Navigator, "horizontal.html", conn: @conn %>
-        <%= live_render(@conn, NotifiedPhoenix.BadgeLive, []) %>
+        <%# <%= live_render(@conn, NotifiedPhoenix.BadgeLive, []) %1> %>
       </div>
     </header>
     <main role="main" class="mx-4 py-4">

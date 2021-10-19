@@ -116,8 +116,8 @@ config :notified,
     {NotifiedPhoenix.Receivers.BrowserNotification, []}
   ]
 
-config :notified_phoenix,
-  to_list: {WorkbenchWeb.Router.Helpers, :notification_path, [WorkbenchWeb.Endpoint, :index]}
+# config :notified_phoenix,
+#   to_list: {WorkbenchWeb.Router.Helpers, :notification_path, [WorkbenchWeb.Endpoint, :index]}
 
 # Tai
 config :tai, Tai.Orders.OrderRepo,
